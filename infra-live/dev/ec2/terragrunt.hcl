@@ -22,7 +22,7 @@ dependency "vpc" {
 }
 
 inputs = {
-    ami_id = "ami-0521cb2d60cfbb1a6"
+    ami_id = "ami-052xxxxxxxxxx"
     instance_type = "t2.micro"
     subnet_id = dependency.vpc.outputs.subnet_id
     instance_tags = {
